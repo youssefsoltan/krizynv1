@@ -11,14 +11,14 @@
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
 
-gc1 = 'https://instagram.com/mhdfakri_'
+gc1 = 'https://www.instagram.com/sdlrangkringan_/'
 gc2 = 'https://www.youtube.com/c/HokenBeusz'
-gc3 = 'https://vt.tiktok.com/ZSeCJHbfA/'
-global.linkGC = ['https://chat.whatsapp.com/KTUF5TbtlWu4vOFnlDqCwg', ''] // ganti jadi group lu
-global.owner = ['62895328590064','62895327934887'] // Put your number here //owner eval
-global.kontak = ['62895328590064','62895327934887'] //Ketika ada yang ngetik #owner
+gc3 = 'https://vt.tiktok.com/ZSdjmAE4o/'
+global.linkGC = ['https://chat.whatsapp.com/GdYb1peYfLyAosgwrUnpNc', ''] // ganti jadi group lu
+global.owner = ['6285850539404','6285850539404'] // Put your number here //owner eval
+global.kontak = ['6285850539404','6285850539404'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['62895328590064','62895327934887'] // Premium user has unlimited limit
+global.prems = ['6285850539404','6285850539404'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -58,24 +58,24 @@ lolkey = 'RFK-Rey'
 zekskey = 'apivinz'
 xteamkey = 'Dawnfrostkey'
 //xteam        MIMINETBOT
-namaig = 'GAK ADA :)'
+namaig = 'Jarott12 :)'
 namagithub = 'GAK ADA :)'
 kasihcaption = `*Kalau udah dikasih, bilang apa?*`
-namakontak1 = 'ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×'
-namakontak2 = '𝙆𝙧𝙞𝙯𝙮𝙣×͜×'
+namakontak1 = 'ᴹᴿJarot ×፝֟͜×'
+namakontak2 = 'Jarott×͜×'
 
 //kasihcaption = `Kalau udah dikasih, bilang apa?`
 
 // Sticker WM
-global.packname = 'ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×' // ganti aja
-global.author = 'ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×' // ganti aja
+global.packname = 'ᴹᴿJAROTT ×፝֟͜×' // ganti aja
+global.author = 'ᴹᴿJAROTT ×፝֟͜×' // ganti aja
 
 //yyy
 '𝙆𝙧𝙞𝙯𝙮𝙣×͜×' // Broadcast
 footer = '𝙆𝙧𝙞𝙯𝙮𝙣×͜×' // Broadcast
 footer = '\𝙆𝙧𝙞𝙯𝙮𝙣×͜×'
-namabot = '𝙆𝙧𝙞𝙯𝙮𝙣×͜×'
-namalu = 'ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×'
+namabot = 'OSCARR×͜×'
+namalu = 'ᴹᴿJarott ×፝֟͜×'
 
 
 // 
