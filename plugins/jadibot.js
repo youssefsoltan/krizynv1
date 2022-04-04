@@ -66,11 +66,11 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     global.conns.push(conn)
   } else throw 'Tidak bisa membuat bot didalam bot!\n\nhttps://wa.me/' + global.conn.user.jid.split`@`[0] + '?text=.jadibot'
 }
-handler.help = ['jadibot', 'premium']
-handler.tags = ['jadibot', 'premium']
+handler.help = ['jadibot', 'limit']
+handler.tags = ['jadibot', 'limit']
 
 handler.command = /^jadibot$/i
-handler.premium = true
+handler.premium = false
 handler.private = true
 handler.limit = 15
 
