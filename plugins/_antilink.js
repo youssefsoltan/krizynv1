@@ -14,7 +14,7 @@ handler.before = async function (m, { isAdmin, isBotAdmin }) {
       if (isBotAdmin) this.groupRemove(m.chat, [m.sender])
     }
   }
-  return !0
+  return true
 }
 
 module.exports = handler
