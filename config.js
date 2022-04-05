@@ -71,9 +71,9 @@ global.packname = 'ᴹᴿJAROTT ×፝֟͜×' // ganti aja
 global.author = 'ᴹᴿJAROTT ×፝֟͜×' // ganti aja
 
 //yyy
-'𝙆𝙧𝙞𝙯𝙮𝙣×͜×' // Broadcast
-footer = '𝙆𝙧𝙞𝙯𝙮𝙣×͜×' // Broadcast
-footer = '\𝙆𝙧𝙞𝙯𝙮𝙣×͜×'
+'JAROTT×͜×' // Broadcast
+footer = 'JAROTT×͜×' // Broadcast
+footer = '\JAROTT×͜×'
 namabot = 'OSCARR×͜×'
 namalu = 'ᴹᴿJarott ×፝֟͜×'
 
@@ -86,7 +86,7 @@ global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fi
 global.eror = '❗𝙎𝙚𝙧𝙫𝙚𝙧 𝙀𝙧𝙧𝙤𝙧...'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '𝙆𝙧𝙞𝙯𝙮𝙣×͜× ' //change the watermark 
+global.watermark = 'JAROTT×͜× ' //change the watermark 
 global.image = 'https://telegra.ph/file/79a7809aa11ce604c129c.jpg' //change the image
 global.thumbfoto = 'https://telegra.ph/file/79a7809aa11ce604c129c.jpg'
 
