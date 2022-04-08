@@ -19,11 +19,11 @@ let handler = async(m, { conn, args, text, usedPrefix: _p }) => {
                                },
                     message: {
                     orderMessage: {
-                            itemCount : 1,
+                            itemCount : 3609,
                             status: 1,
                             surface : 1,
-                            message: tytyd,
-                            orderTitle: "MIKEBOT",
+                            message: Gourav,
+                            orderTitle: "GOURAV",
                             thumbnail: fs.readFileSync("./src/mike.jpg"),
                             sellerJid: '0@s.whatsapp.net'
                         }
