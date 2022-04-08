@@ -9,8 +9,8 @@ let handler = async (m, { conn }) => {
 
     m.reply(`
 ╭───◪ 〔  𝙎 𝙏 𝘼 𝙏 𝙐 𝙎  〕
-├֍ Aktif selama ${uptime}
-├֍ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+├֍ Time ${uptime}
+├֍ Battery ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ├֍ *${groups.length}* Grup
 ├֍ *${chats.length - groups.length}* Chat Pribadi
 ├֍ *${Object.keys(global.db.data.users).length}* Pengguna
