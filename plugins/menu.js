@@ -8,19 +8,18 @@ const defaultMenu = {
   before: `
 ╭───◪ 〔 ${namabot} 〕 
 ⬡ ${ucapan()}
-⬡ Allo mypren👋
+⬡ Hello bro
 ╰────────⬣
 ╭───◪ 〔  𝙇 𝙄 𝙈 𝙄 𝙏  〕
-┃⬡ Tersisa *%limit Limit*
+┃⬡ Limit *%limit Limit*
 ┃⬡ Role *%role*
 ┃⬡ Level *%level (%exp / %maxexp)* 
 ┃⬡ [%xp4levelup]
 ┃⬡ %totalexp XP secara Total
 ╰────────⬣
 ╭───◪ 〔 𝙏𝙄𝙈𝙀 𝘼𝙉𝘿 𝘿𝘼𝙏𝙀 〕
-┃⬡ Hari : *%week %weton* 
+┃⬡ Date: *%week %weton* 
 ┃⬡ Tanggal : *%date*
-┃⬡ Tanggal Islam : *%dateIslamic*
 ┃⬡ Waktu: *%time*
 ╰────────⬣
 ╭───◪ 〔  𝘿𝘼𝙏𝘼𝘽𝘼𝙎𝙀  〕
@@ -35,7 +34,7 @@ const defaultMenu = {
   header: '╭─֍ 〔 %category 〕 ֍─',
   body: '┃⬡ %cmd %islimit %isPremium',
   footer: '╰────────֍\n',
-  footerText:'𝙆𝙧𝙞𝙯𝙮𝙣 ×͜×', 
+  footerText:'𝗚𝗼𝘂𝗿𝗮𝘃 ×͜×', 
   after: `${namabot}
 `,
 }
@@ -227,7 +226,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `${ucapan()}
-𝗔𝗹𝗹𝗼 𝗠𝘆𝗽𝗿𝗲𝗻👋, ${name}`.trim(),
+Hello, ${name}`.trim(),
           "description": `
 ┏━━〔 𝙎 𝙏 𝘼 𝙏 𝙐 𝙎 〕━֍
 ┃⬣ Aktif selama *${uptime}*
@@ -239,25 +238,23 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬣ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┗━━━━━━━━━━━━━━֍
 ┏━━〔 𝘼𝘾𝘾𝙊𝙐𝙉𝙏 𝙊𝙒𝙉𝙀𝙍 〕━֍
-┃⬣ IG : instagram.com/mhdfakri_
-┃⬣ YT : youtube.com/c/HokenBeusz
-┃⬣ TT : tiktok.com/@unfaedahkan
-┃⬣ FB : facebook.com/mhdfakri1999
+┃⬣ IG : instagram.com/dark_devil_3609
+┃⬣ 
 ┃⬣ 𝘿𝙊𝙉'𝙏 𝙁𝙊𝙍𝙂𝙀𝙏 𝙏𝙊 𝙁𝙊𝙇𝙇𝙊𝙒𝙄𝙉𝙂!
 ┗━━━━━━━━━━━━━━֍`.trim(),
-                        "footerText": "𝘑𝘪𝘬𝘢 𝘮𝘦𝘯𝘦𝘮𝘶𝘬𝘢𝘯 𝘣𝘶𝘨 𝘥𝘢𝘭𝘢𝘮 𝘱𝘦𝘯𝘨𝘨𝘶𝘯𝘢𝘢𝘯\n𝘚𝘪𝘭𝘢𝘩𝘬𝘢𝘯 𝘭𝘢𝘱𝘰𝘳𝘬𝘢𝘯 𝘰𝘳 𝘵𝘢𝘯𝘺𝘢𝘬𝘢𝘯 𝘬𝘦𝘱𝘢𝘥𝘢 𝙊𝙬𝙣𝙚𝙧",
-                        "buttonText": "Klik Disini",
+                        "footerText": "Bot created by 𝗚𝗼𝘂𝗿𝗮𝘃\n𝙊𝙬𝙣𝙚𝙧",
+                        "buttonText": "Gourav",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
                                 
                                 "rows": [{
                                     "title": `[ ☇ ] ꜱ ᴇ ᴍ ᴜ ᴀ  ᴘ ᴇ ʀ ɪ ɴ ᴛ ᴀ ʜༀ`,
-									"description": "✓ 𝙈𝙚𝙢𝙗𝙚𝙧𝙞𝙠𝙖𝙣 𝙎𝙚𝙢𝙪𝙖 𝙁𝙞𝙩𝙪𝙧 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙢𝙗𝙚𝙧𝙞𝙠𝙖𝙣 𝙎𝙚𝙢𝙪𝙖 𝙁𝙞𝙩𝙪𝙧 𝘽𝙤𝙩ᴹᴿ𝗚𝗼𝘂𝗿𝗮𝘃 ×፝֟͜×",
 									"rowId": ".? all"
 								}, {
 									"title": "[ ☇ ] ɪ ꜱ ʟ ᴀ ᴍༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙄𝙨𝙡𝙖𝙢 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙄𝙨𝙡𝙖𝙢 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝗚𝗼𝘂𝗿𝗮𝘃 ×፝֟͜×",
 									"rowId": ".? quran"
 								}, {
 									"title": "[ ☇ ] ᴇ ᴅ ᴜ ᴋ ᴀ ꜱ ɪༀ",
@@ -404,7 +401,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         ], "contextInfo": 
 						{ "stanzaId": m.key.id,
                         "participant": "0@s.whatsapp.net",
-                        "remoteJid": "6283136505591-1614953337@g.us",
+                        "remoteJid": "918089152280-1614953337@g.us",
                         "quotedMessage": m.message
 						}
                     }
@@ -514,19 +511,19 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
+  const time = moment.tz('Asia/Kolkata').format('HH')
   res = "*Dinihari Ngab*👻"
   if (time >= 4) {
-    res = "*Pagi Ngab*🌤"
+    res = "*Good Morning*🌤"
   }
   if (time > 10) {
-    res = "*Siang Ngab*🌞"
+    res = "*Good morning*🌞"
   }
   if (time >= 15) {
-    res = "*Sore Ngab*🌝"
+    res = "*Good Night*🌝"
   }
   if (time >= 18) {
-    res = "*Malam Ngab*🌚"
+    res = "*Good night*🌚"
   }
   return res
 }
