@@ -37,11 +37,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     let res = `http://hardianto-chan.herokuapp.com/api/rankcard?profile=https://i.ibb.co/vQTHzkh/IMG-20210907-WA0721.jpg&name=${name}&bg=https://i.ibb.co/4YBNyvP/images-76.jpg&needxp=${max}&curxp=${exp}&level=${level}&logorank=https://i.ibb.co/Wn9cvnv/FABLED.png`
     let str = `
 ┌───❑〘 𝗨 𝗦 𝗘 𝗥  𝗜 𝗡 𝗙 𝗢 〙─────
-│📛 Nama : @${who.replace(/@.+/, '')}${about != 401 ? '\n│💋 Info : ' + about : ''}
+│📛 Name : @${who.replace(/@.+/, '')}${about != 401 ? '\n│💋 Info : ' + about : ''}
 │🏷️ Nama Reg : *${registered ? '(' + name + ') ' : ''}
-│👁️‍🗨️ Umur : ${registered ? + age : ''}
-│🔗 Tag : ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-│💥 Api : wa.me/${who.split`@`[0]}
 ├───────────────────⬡
 │💹 Limit : *${limit}*
 │💱 Role : *${role}*
@@ -55,21 +52,20 @@ let handler = async (m, { conn, usedPrefix }) => {
 └───────────────────⬡
 ╭─────────────────
 │𝗡𝗢𝗧𝗘: 
-│➥𝙂𝙪𝙣𝙖𝙠𝙖𝙣 𝘽𝙊𝙏 𝙎𝙚𝙘𝙪𝙠𝙪𝙥𝙣𝙮𝙖!
-│➥𝙅𝙖𝙣𝙜𝙖𝙣 𝘾𝙖𝙡𝙡/𝙑𝙘 𝘽𝙊𝙏!
-│➥𝘿𝙚𝙢𝙞 𝙠𝙚𝙣𝙮𝙖𝙢𝙖𝙣𝙖𝙣 𝙗𝙚𝙧𝙨𝙖𝙢𝙖
+│➥𝗚𝗼𝘂𝗿𝗮𝘃 𝘽𝙊𝙏
+│➥ Follow ig dark_devil_3609
 ╰──────────────────
 `.trim()
  let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'pp.jpg', banned ? 'jiakh ke banned' : str, m, false, { contextInfo: { mentionedJid } })
  const button = {
-        buttonText: 'Klik Disini',
+        buttonText: 'Gourav',
         description: '',
         sections:  [{title: "Silahkan di pilih gausah pilih yang gaada", rows: [
-        {title: 'Menu Utama', description: "Kembali ke Menu Utama", rowId:".?"},
+        {title: 'Menu', description: "Kembali ke Menu Utama", rowId:".?"},
         {title: 'Sewa Bot', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewa"},
         {title: 'Cara Invit?', description: "Cara Memasukkan Bot Di GC", rowId:".tutorbot"},
-        {title: 'Nomor Owner', description: "CHAT *P* TIDAK DI BALAS", rowId:".owner"},
+        {title: 'Number Owner', description: "CHAT *P* TIDAK DI BALAS", rowId:".owner"},
        ] }],
         listType: 1
        }
