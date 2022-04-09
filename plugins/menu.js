@@ -497,7 +497,7 @@ handler.help = ['kri', 'menu', 'help']
 handler.tags = ['main']
 handler.command = /^(\?|menu|help)$/i
 
-handler.register = true
+handler.register = false
 
 module.exports = handler
 
