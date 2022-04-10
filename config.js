@@ -11,14 +11,14 @@
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
 
-gc1 = 'https://instagram.com/dark_devil_3609/'
-gc2 = 'https://instagram.com/dark_devil_3609'
-gc3 = 'https://instagram.com/dark_devil_3609/'
-global.linkGC = ['https://chat.whatsapp.com/GdYb1peYfLyAosgwrUnpNc', ''] // ganti jadi group lu
-global.owner = ['918089152280','918089152280'] // Put your number here //owner eval
-global.kontak = ['918089152280','6285850539404'] //Ketika ada yang ngetik #owner
+gc1 = 'https://instagram.com/1y._.o2/'
+gc2 = 'https://instagram.com/1y._.o2'
+gc3 = 'https://instagram.com/1y._.o2/'
+global.linkGC = ['https://chat.whatsapp.com/E3ZXaynqIStHBJdpyNlTxb', ''] // ganti jadi group lu
+global.owner = ['201288455338','201288455338'] // Put your number here //owner eval
+global.kontak = ['201288455338','201288455338'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['918089152280','6285850539404'] // Premium user has unlimited limit
+global.prems = ['201288455338','201288455338'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
