@@ -26,7 +26,7 @@
 
 Simple WhatsApp Bot 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youssefsoltan/krizyn)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/frostkri/krizyn)
 
 ## FOR TERMUX/UBUNTU/WINDOWS/VPS/RDP USER
 
